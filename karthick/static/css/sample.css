@@ -1,0 +1,251 @@
+
+html{
+    background:-webkit-linear-gradient(blue,red);
+
+}
+ul li {
+    display: inline-block;
+    font-size: 20px;
+    color:white;
+    padding-left: 25px;
+    margin-top: 30px;
+
+
+}
+a{
+    text-decoration: none;
+    color:salmon;
+
+}
+#nav
+{   font-size: 40px;
+    margin-left: 30px;
+    padding:0px;
+    margin-right:400px;
+    background-attachment: fixed;
+    color:crimson;
+}
+img{
+    background-color: black;
+}
+#home{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-style: none;
+    text-decoration-color: blue;
+    line-break:10px;
+}
+a:hover{
+    background:red;
+    padding:10px auto;
+    opacity: inherit;
+    float:left;
+}
+a:active{
+    color:royalblue;
+}
+h1{
+    color:red;
+    margin-left: 105px;
+}
+p{
+    font-size: 50px;
+    color: white;
+    margin-left: 105px;
+}
+#get{
+    
+    color:white;
+    margin-left:105px;
+    font-size: 25px;
+    padding-left: 10px;
+    display: inline;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    border-style:double;
+    border-color:orchid;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-top: 10px;
+    background-color: red;
+    
+    
+    
+}
+#k2{
+    line-height: 10px;
+    display:inline;
+    height:300px;
+    width:300px;
+    margin-left: 100px;
+    background-color: rgb(192, 40, 65);
+    border-color: black;
+    margin-right: 30px;
+   
+   
+   
+}
+#k2{
+    color:white;
+
+}
+#k3{
+    font-size: 25px;
+    text-decoration: none;
+    text-decoration-color: red;
+    
+    text-align: left;
+    margin-top: 70px;
+    margin-left: 10px;
+}
+#k4{
+   
+    color:white;
+    margin-left: 10px;
+    text-align: left;
+    margin-top: 30px;
+}
+#img1{
+    margin-top: 20px;
+}
+#k5
+{
+    color:white;
+}
+#k6
+{
+    font-size: 25px;
+    text-decoration: none;
+    text-decoration-color: red;
+    
+    text-align: left;
+    margin-top: 70px;
+    
+}
+
+#k7{
+
+  color:white;
+    margin-left: 10px;
+    text-align: left;
+    margin-top: 30px;
+}
+#img2{
+    margin-top: 20px;
+}
+#k5{
+    line-height: 10px;
+    display:inline;
+    height:300px;
+    width:300px;
+    margin-left:50px;
+    background-color:rgb(22, 22, 22);
+    opacity: 0px;
+    border-color: black;
+    margin-right: 50px;
+}
+#k8{
+    line-height: 10px;
+    display:inline;
+    height:300px;
+    width:300px;
+    margin-left:40px;
+    background-color:green;
+    opacity: 0px;
+    border-color: black;
+    margin-right: 30px;
+    color:white;
+    box-shadow: red 40px;
+    
+}
+#k9{
+    font-size: 25px;
+    text-decoration: none;
+    text-decoration-color: red;
+    
+    text-align: left;
+    margin-top: 70px;
+}
+#k10{
+
+    color:white;
+    margin-left: 10px;
+    text-align: left;
+    margin-top: 30px;
+}
+#img3{
+    margin-top: 20px;
+
+}
+#footer{
+    display:inline-block;
+    
+    font-size: 20px;
+    color:blue;
+    width:1120px;
+    margin-top: -10px;
+  
+    margin-left: 100px;
+    margin-top:40px;
+    height:70px;
+    top:50px;
+    
+}
+#left
+{
+    margin-left: 0px;
+    margin-right:70px;
+    font-size: 25px;
+    color:white;
+    font-weight: bold;
+}
+#gmail
+{
+    margin-right: 1px;
+    color:white;
+}
+#gmail,#app,#twitter,#insta,a{
+    color:white;
+    font-weight: bold;
+}
+#home.a[href$="home"]{
+    background:red;
+}
+a.activate{
+    background:red;
+}
+#about {
+
+    color:white;
+    padding:10px;
+    list-style-type:none;
+    float: left;
+    width:0px;
+   line-height: 40px;
+   text-align: center;
+    
+    opacity: .8;
+    display:none;
+
+
+}
+ul{
+    margin:0px;
+    padding:0px;
+    list-style: none;
+
+
+}
+a[href$='g']{
+    color:salmon;
+}
+#con{
+    background-image: url("/static/karthick/images/trans.jpg");
+}
+/*#end{
+    background-color: black;
+    top:20px;
+    margin-bottom: 40px;
+}*/

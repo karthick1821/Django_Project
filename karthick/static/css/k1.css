@@ -1,0 +1,177 @@
+
+h1{
+
+    
+    size:30px;
+    color:white;
+    font-family: aerial;
+    text-decoration:white;
+    margin-left: 160px;
+    top: 100px;
+    
+
+}
+html{
+    background-image: url("/static/karthick/images/1378705.jpg");
+    background-repeat: no-repeat;
+}
+body{
+   
+    width:500px;
+    margin-left:400px;
+    margin-right:300px;
+    margin-top:70px;
+    margin-bottom: 50px;
+    
+    
+    background:-webkit-linear-gradient(rgb(31, 216, 216),pink,rgb(226, 86, 86));
+    opacity: .8;
+    height: 650px;;
+    
+
+}
+label{
+    margin-left: 10px;
+    margin-top: 50%;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+div{
+    margin-left: 20px;
+    display:inline;
+    margin-right: 20px;
+
+}
+img{
+    
+    
+    margin-left:190px;
+}
+
+
+#name{
+    height: 30px;
+    width:450px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#pass{
+    height: 30px;
+    width:450px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#login{
+    background-color: green;
+   
+    color:white;
+    height:40px;
+    width:460px;
+    margin-left:10px;
+    margin-bottom: 20px;
+}
+#cancel{
+    color:white;
+    background-color: red;
+    
+    height:30px;
+    width:90px;
+    margin: 10px auto;
+    
+    display:inline-block;
+    box-sizing: border-box;
+    margin-right: -15px;
+    text-decoration:none;
+}
+a{
+    margin-left: 200px;
+}
+#footer{
+    
+    display:inline;
+    border-top: 100px;
+    position: absolute;
+    padding-top:10px;
+    float:right;
+    margin-right: 70px;
+ 
+  
+}
+#img1{
+    margin-left: 80px;
+    height:40px;
+    width:40px;
+    background-color:red;
+}
+a.hover{
+background-color: red;
+}
+a.active{
+    background-color: gold;
+}
+input[type=text],input[type=password]{
+    background-color:white;
+}
+kk{
+    margin-left: 100px;
+    position: absolute;
+}
+#sign{
+    font-size: 20px;
+    text-align: center;
+    color:white;
+    display: inline-block;
+    list-style-type: none;
+   margin-left: 70px;
+   margin-bottom: 20px;
+  
+}
+#up{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+#down{
+    background-color:none;
+    font-weight: bold;
+}
+#head{
+    margin-left: 80px;
+    margin-top: 20px;
+    color:white;
+    font-weight: bold;
+}
+#wel
+{
+    margin-left: 20px;
+    margin-right: 50px;
+    font-weight: bold;
+    font-size: 25px;
+    color:blue;
+    text-decoration: none;
+}
+#wel.a:hover{
+    color:red;
+}
+#uname{
+    color:white;
+}
+#psw{
+    color:white;
+}
+#me{
+    color:white;
+}
+#forget{
+    color:blue;
+    font-weight: bold;
+    margin-right: 40px;
+    font-size: 14px;
+}

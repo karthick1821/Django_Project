@@ -1,0 +1,57 @@
+{% load static %}
+
+<!DOCTYPE html>
+ 
+<html lang="en">
+<!--<h1 id="head">Welcome To Login Page</h1>-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/k1.css'%}">
+    <script src="{% static 'Js/j1.js'%}"></script>
+</head>
+<body>
+    <!--<h1>LOGIN FORM<a href="demo.html"><img src="222.jpg" height=30px width=30px id="img1"></a></h1>-->
+   
+    <img src="{% static 'karthick/images/14.png'%}" height=120px width=120px id="down" >
+    
+    <br>
+    <br>
+  <label  for="uname"><b>UserName</b></label><br>
+
+  <input type ="text" name="uname" id="name" placeholder="Enter the Name " required><br><br>
+</br>
+  <label for="psw" ><b>Password</b></label><br>
+  <input type="text" name="psw" id="pass" placeholder="Enter the Password",required></br></br></br>
+  <br>
+  
+  
+  
+  <button type="button"  id="login" onclick="login()"><a href="{% url 'Home'%}" id="wel">Login</a></button>
+  <br>
+  <br>
+  <div id="me">
+  <input type="checkbox" checked="checked">Remember me
+</div>
+  <br>
+  
+  <div id="footer">
+  <button type="button" Name=Cancel Value=Cancel id="cancel" onclick="document.getElementById('cancel').innerHTML=alert('Are You Sure')">Cancel</button>
+  <a href="#" id="forget">Forget Password/Username</a>
+  </div>
+  <br>
+  <br>
+  <br>
+  <ul id="sign">
+     <li>Don't have an account?<a href="#" id="up">Sign Up</a></li>
+  </ul>
+
+  <!--<p id ="demo"></p>
+  <button type="button" onclick="document.getElementById('demo').innerHTML=Date()">
+  Click Me</button>-->
+  
+
+</body>
+</html>

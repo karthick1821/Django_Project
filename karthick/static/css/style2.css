@@ -1,0 +1,153 @@
+/*html{
+    background-image: url(f2.jpg);
+    
+
+}*/
+h1{
+    font-family:algerian;
+    text-align:center;
+    color:red;
+    text-transform:uppercase;
+    text-decoration:unterline;
+    border-radius:30px 40px 30px 40px;
+    background-image:url(f2.jpeg);
+   
+    
+    
+}
+.nav{
+    
+    height:50px;
+    font-size:30px;
+    color: red;
+    
+
+   
+}
+.nav ul{
+    display:block;
+    margin:0;
+    padding:0;
+    background-color:#51F07F;
+    list-style-type:none;
+    
+    color:red;
+    height:50px;
+    width:100%;
+
+}
+a[title="link2"]{
+    color:blue;
+
+}
+a[href$="g"]
+{
+    color:brown;
+}
+li{
+    display:inline;
+    padding:10px;
+    color:red;
+
+}
+#header+p{
+    
+    width:50%;
+    text-align:center;
+    background-color: white;
+
+}
+p{
+    font-family:'Times New Roman', Times, serif;
+    text-align:center;
+    margin:0px ;
+    margin-top:1px;
+    float:left;
+    margin-left:20%;
+ 
+    
+    
+    
+    color:red;
+    margin:50px;
+    text-align: center;
+    font-size:80%;
+    box-shadow: red;
+   
+    
+
+}
+.footer{
+    
+   
+    font-family:algerian;
+    font-size:30px;
+    text-align:center;
+    letter-spacing:3%;
+    background-color:gold;
+    text-decoration: underline;
+    color:green;
+  
+    
+  
+
+}
+#top p{
+    
+   
+    
+}
+
+marquee{
+    font-family: algerian;
+    font-size:30px;
+    text-decoration:underline;
+    font-weight:bold;
+    color:green;
+    height:50px;
+   
+}
+/*#k2 marquee{
+    height:50%;
+    behavior: alternate;
+    direction:left;
+    margin-right: 20%;;
+   
+    
+    scroll-behavior:"20";
+    
+    
+}*/
+div[class~="footer"]
+{
+    background-color:red;
+    height:20%px;
+    
+}
+.txt{
+    color:white;
+    
+}
+a[title="link1"]{
+    color:orange;
+}
+a[href$="g"]
+{
+    color:red;
+}
+a:hover{
+    color:red;
+}
+a:active{
+    color:purple;
+}
+div[class~="txt"]{
+    color:blue;
+    background-color: honeydew;
+}
+
+.footer{
+  
+   background:-webkit-linear-gradient(gold,red);
+   color:red;
+    }
