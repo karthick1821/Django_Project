@@ -11,3 +11,4 @@ Django==3.2.4
 mysql-client==0.0.1
 pytz==2021.1
 sqlparse==0.4.1
+In this project manage.py is a root directory to execute the program 
